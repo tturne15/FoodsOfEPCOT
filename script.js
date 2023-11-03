@@ -1,0 +1,1 @@
+alert ('Welcome! Explore the many foods served at Epcot! Choose the country of your choice.');

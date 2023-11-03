@@ -1,0 +1,630 @@
+.center {color:white; line-height: 25px; word-spacing: 3px; top: 26%; position: absolute;
+    font-size: 38px; text-shadow: 4px 9px 9px blue; z-index:1; text-align: center; left: 36%;}
+
+.country {position: absolute; text-decoration: none; color: #EEEEEE; font-size: 45px; font-weight: bold;}
+
+.Hawaii {top: 5%; left: 32%; text-shadow: 4px 9px 9px aqua;}  .Hawaii:hover {color: aqua; text-shadow: 2px 9px 9px white;}
+
+.Belgium {top: 33%; left: 81%; text-shadow: 10px 15px 15px black;} .Belgium:hover {color: black; text-shadow: 2px 9px 9px white;}
+
+.Kenya {top: 62%; left: 78%; text-shadow: 6px 11px 11px #379237;}   .Kenya:hover {color: #379237; text-shadow: 2px 9px 9px white;}
+
+.Australia {top: 91%; left: 42.6%; text-shadow: 3px 8px 8px #FFC436; z-index: 1;} .Australia:hover {color: #FFC436; text-shadow: 2px 9px 9px white;}
+
+.Japan {top: 62%; left: 12%; text-shadow: 2px 9px 9px #FE0000;}  .Japan:hover {color: #FE0000; text-shadow: 2px 2px 9px white;}
+
+.Greece {top: 33%; left: 7%; text-shadow: 10px 15px 15px #9DC08B;} .Greece:hover {color: #9DC08B; text-shadow: 2px 9px 9px white;}
+
+body {background-color:blue;}
+
+h2, h6 {font-style: italic;}
+
+h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 19px; text-align: center;}
+
+.imgEPCOT {border: solid 5px black; position: absolute; height:290px; left:32.5%; top:26%; z-index: -2; opacity: 85%;}
+
+.imgDragon {height:47%; position:absolute; top:52.5%; left: 3%; z-index:-1;}
+
+.JapanCountry {position: absolute; height: 118px; top: 47.5%; left: 22%;}
+
+.imgTemple{position: absolute; height: 33%; left: 4%; top: 5.5%; z-index: -1;}
+
+.GreeceCountry {position: absolute; top: 2%; height: 16%; left: 1%;}
+   
+.Coconut {position: absolute; height: 29%; top: 5%; left: 26%; z-index: -1; opacity: 90%; z-index: -3;}
+
+.Hawaii {z-index: 1;}
+
+.HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 27%;}
+
+.Eifle {position: absolute; height: 45%; top: -5%; left: 57%; z-index: -1;}
+
+.FranceCountry {position: absolute; height: 12%; left: 58.6%; top: 13.2%;}
+
+.Crown {position: absolute; height: 18%; left: 85%; top: 43%;}
+
+.BelgiumCountry {position: absolute; height: 12%; left: 81%; top: 18%;}
+
+.Tree {position: absolute; height: 24%; left: 74%; top: 71%;}
+
+.Mask {position: absolute; height: 11%; top: 86%; left: 90%; transform: rotate(-23deg);}
+
+.KenyaCountry {position: absolute; height: 12%; top: 59%; left: 71%;}
+
+.Boomerang {position: absolute; height: 6%; top: 83%; left: 37%; transform:rotate(-29deg);}
+
+.Kangaroo {position: absolute; height: 21%; top: 78%; left: 56.5%; z-index: 2;}
+
+.AustraliaCountry {position: absolute; height: 11%; top: 80%; left: 46%; z-index: 2;}
+
+.Yes {position: absolute; color: red; left: 58%; top: 5%; text-decoration: none; font-size: 45px;
+      color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+   .Yes:hover {color:#952323; text-shadow:white;}
+   @font-face {font-family: 'TimesNewRoman'; src: url(TimesNewRoman.ttf); font-style: normal;}
+   body {font-family: 'TimesNewRoman'; font-style: normal;}
+
+
+
+
+   @media only screen and (max-width: 1300px) and (min-width: 1260px) {
+    .center {color:white; line-height: 25px; word-spacing: 3px; top: 26%; position: absolute;
+        font-size: 38px; text-shadow: 4px 9px 9px blue; z-index:1; text-align: center; left: 36.5%;}
+   
+    .country {position: absolute; text-decoration: none; color: #EEEEEE; font-size: 45px; font-weight: bold;}
+   
+    .Hawaii {top: 5%; left: 32%; text-shadow: 4px 9px 9px aqua;}  .Hawaii:hover {color: aqua; text-shadow: 2px 9px 9px white;}
+   
+    .Belgium {top: 33%; left: 81%; text-shadow: 10px 15px 15px black;} .Belgium:hover {color: black; text-shadow: 2px 9px 9px white;}
+   
+    .Kenya {top: 62%; left: 78%; text-shadow: 6px 11px 11px #379237;}   .Kenya:hover {color: #379237; text-shadow: 2px 9px 9px white;}
+   
+    .Australia {top: 91%; left: 42.6%; text-shadow: 3px 8px 8px #FFC436; z-index: 1;} .Australia:hover {color: #FFC436; text-shadow: 2px 9px 9px white;}
+   
+    .Japan {top: 62%; left: 12%; text-shadow: 2px 9px 9px #FE0000;}  .Japan:hover {color: #FE0000; text-shadow: 2px 2px 9px white;}
+   
+    .Greece {top: 33%; left: 7%; text-shadow: 10px 15px 15px #9DC08B;} .Greece:hover {color: #9DC08B; text-shadow: 2px 9px 9px white;}
+   
+    body {background-color:blue;}
+   
+    h2, h6 {font-style: italic;}
+   
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 19px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height:290px; left:32.5%; top:26%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:47%; position:absolute; top:52.5%; left: 3%; z-index:-1;}
+   
+    .JapanCountry {position: absolute; height: 118px; top: 47.5%; left: 22%;}
+   
+    .imgTemple{position: absolute; height: 33%; left: 4%; top: 5.5%; z-index: -1;}
+   
+    .GreeceCountry {position: absolute; top: 2%; height: 16%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 29%; top: 5%; left: 26%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {z-index: 1;}
+   
+    .HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 27%;}
+   
+    .Eifle {position: absolute; height: 45%; top: -5%; left: 57%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 12%; left: 58.6%; top: 13.2%;}
+   
+    .Crown {position: absolute; height: 18%; left: 85%; top: 43%;}
+   
+    .BelgiumCountry {position: absolute; height: 12%; left: 81%; top: 18%;}
+   
+    .Tree {position: absolute; height: 24%; left: 74%; top: 71%;}
+   
+    .Mask {position: absolute; height: 11%; top: 86%; left: 90%; transform: rotate(-23deg);}
+   
+    .KenyaCountry {position: absolute; height: 12%; top: 59%; left: 71%;}
+   
+    .Boomerang {position: absolute; height: 6%; top: 83%; left: 37%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 21%; top: 78%; left: 56.5%; z-index: 2;}
+   
+    .AustraliaCountry {position: absolute; height: 11%; top: 80%; left: 46%; z-index: 2;}
+   
+    .Yes {position: absolute; color: red; left: 58%; top: 5%; text-decoration: none; font-size: 45px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+       @font-face {font-family: 'TimesNewRoman'; src: url(TimesNewRoman.ttf); font-style: normal;}
+       body {font-family: 'TimesNewRoman'; font-style: normal;}
+   }
+
+
+   @media only screen and (max-width: 1260px) and (min-width: 1170px)  {
+    body {background-color:blue;}
+
+    .center {left: 37%; font-size: 31px; top: 25%;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 15px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height: 250px; left:32.5%; top:26%;  z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:42%; position:absolute; top:52.5%; left: 3%; z-index:-1;}
+   
+    .JapanCountry {position: absolute; height: 115px; top: 45%; left: 20%;}
+   
+    .imgTemple{position: absolute; height: 28%; left: 4%; top: 5.5%; z-index: -1;}
+   
+    .GreeceCountry {position: absolute; top: 2%; height: 15%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 24%; top: 5%; left: 26%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 26%;}
+
+    .Hawaii {z-index: 1; position: absolute; left: 30.5%;}
+   
+    .Eifle {position: absolute; height: 40%; top: -5%; left: 57%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 12%; left: 58.6%; top: 13.2%;}
+   
+    .Crown {position: absolute; height: 15%; left: 85%; top: 41.7%;}
+   
+    .BelgiumCountry {position: absolute; height: 12%; left: 81%; top: 18%;}
+   
+    .Tree {position: absolute; height: 22%; left: 72%; top: 71%;}
+   
+    .Mask {position: absolute; height: 6%; top: 86%; left: 90%; transform: rotate(-23deg);}
+   
+    .KenyaCountry {position: absolute; height: 12%; top: 61%; left: 71%;}
+   
+    .Boomerang {position: absolute; height: 6%; top: 83%; left: 34%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 22%; top: 74%; left: 59%;}
+   
+    .AustraliaCountry {position: absolute; height: 12%; top: 76%; left: 46%;}
+
+    .Australia {left: 41.5%;}
+   
+    .Yes {position: absolute; color: #ff0000; left: 56%; top: 5%; text-decoration: none; font-size: 45px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+
+   @media only screen and (max-width: 1170px) and (min-width: 1010px)  {
+    body {background-color:blue;}
+
+    .center {left: 37%; font-size: 31px; top: 26%;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 15px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height: 250px; left:32.5%; top:26%;  z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:42%; position:absolute; top:52.5%; left: 3%; z-index:-1;}
+   
+    .JapanCountry {position: absolute; height: 115px; top: 45%; left: 20%;}
+   
+    .imgTemple{position: absolute; height: 28%; left: 4%; top: 5.5%; z-index: -1;}
+   
+    .GreeceCountry {position: absolute; top: 2%; height: 15%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 24%; top: 5%; left: 26%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 27%;}
+
+    .Hawaii {z-index: 1; position: absolute; left: 30.5%;}
+   
+    .Eifle {position: absolute; height: 40%; top: -5%; left: 57%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 12%; left: 563%; top: 13.2%;}
+   
+    .Crown {position: absolute; height: 15%; left: 85%; top: 41.7%;}
+   
+    .BelgiumCountry {position: absolute; height: 12%; left: 81%; top: 18%;}
+   
+    .Tree {position: absolute; height: 22%; left: 72%; top: 71%;}
+   
+    .Mask {position: absolute; height: 6%; top: 86%; left: 90%; transform: rotate(-23deg);}
+   
+    .KenyaCountry {position: absolute; height: 12%; top: 61%; left: 71%;}
+   
+    .Boomerang {position: absolute; height: 6%; top: 83%; left: 34%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 22%; top: 74%; left: 59%;}
+   
+    .AustraliaCountry {position: absolute; height: 12%; top: 76%; left: 45.3%;}
+
+    .Australia {left: 41.5%;}
+   
+    .Yes {position: absolute; color: #ff0000; left: 58%; top: 5%; text-decoration: none; font-size: 45px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+   @media only screen and (max-width: 1010px) and (min-width: 840px) {
+
+    body {background-color:blue;}
+
+    .center {color:white; line-height: 25px; word-spacing: 3px; top: 30%; position: absolute;
+        font-size: 28px; text-shadow: 4px 9px 9px blue; z-index:1; text-align: center; left: 35%;}    
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 14px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height:225px; left:30%; top:32%;  z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:35%; position:absolute; top:55%; left: 2%; z-index:-1;}
+   
+    .Japan {font-size: 40px; position: absolute; left: 9%; top: 62%;}
+
+    .JapanCountry {position: absolute; height: 83px; top: 83%; left: 20.2%;}
+   
+    .imgTemple{position: absolute; height: 25%; left: 2%; top: 9%; z-index: -1;}
+
+    .Greece {font-size: 40px; position: absolute; top: 33%; left: 8%;}
+   
+    .GreeceCountry {position: absolute; top: 5%; height: 12%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 22%; top: 5%; left: 26%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 23%;}
+
+    .Hawaii {position: absolute; left: 28%; z-index: 1; font-size: 40px;}
+   
+    .Eifle {position: absolute; height: 38%; top: -5%; left: 57%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 9%; left: 58.6%; top: 13.2%;}
+   
+    .Crown {position: absolute; height: 13%; left: 85%; top: 42.5%;}
+
+    .Belgium {left: 77%; font-size: 40px;}
+   
+    .BelgiumCountry {position: absolute; height: 9%; left: 89%; top: 26%;}
+   
+    .Tree {position: absolute; height: 23%; left: 72%; top: 71%;}
+   
+    .Mask {position: absolute; height: 6%; top: 87%; left: 90%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 40px;}
+   
+    .KenyaCountry {position: absolute; height: 9%; top: 64%; left: 72%;}
+   
+    .Boomerang {position: absolute; height: 5%; top: 83%; left: 33.5%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 21%; top: 73%; left: 57.5%; z-index: -1;}
+   
+    .AustraliaCountry {position: absolute; height: 10%; top: 78%; left: 44.5%;}
+
+    .Australia {left: 40%; font-size: 40px;}
+   
+    .Yes {position: absolute; color: red; left: 56%; top: 5%; text-decoration: none; font-size: 40px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+
+   @media only screen and (max-width: 840px) and (min-width: 735px) {
+
+    body {background-color:blue;}
+
+    .center {font-size: 23px; left: 32%; top: 30%; position: absolute;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 13px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height:195px; left:28.5%; top:33%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:29%; position:absolute; top:57%; left: 3%; z-index:-1;}
+
+    .Japan {font-size: 25px; left: 7%; top: 60%;}
+   
+    .JapanCountry {position: absolute; height: 84px; top: 80%; left: 1%;}
+   
+    .imgTemple{position: absolute; height: 23%; left: 4%; top: 8%; z-index: -1;}
+
+    .Greece {font-size: 25px;}
+   
+    .GreeceCountry {position: absolute; top: 2%; height: 11%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 19%; top: 5%; left: 31%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {font-size: 25px; z-index: 1;}
+
+    .HawaiiCountry {position: absolute; top: -13%; left: 38%; height: 22%;}
+   
+    .Eifle {position: absolute; height: 35%; top: -5%; left: 55%; z-index: -1;}
+
+    .France {font-size: 25px;}
+   
+    .FranceCountry {position: absolute; height: 8%; left: 58.6%; top: 13.2%;}
+   
+    .Crown {position: absolute; height: 10%; left: 85%; top: 41.7%;}
+
+    .Belgium {font-size: 25px;}
+   
+    .BelgiumCountry {position: absolute; height: 8%; left: 87%; top: 24%;}
+   
+    .Tree {position: absolute; height: 17%; left: 72%; top: 71%;}
+   
+    .Mask {position: absolute; height: 4%; top: 86%; left: 90%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 25px; left: 83%; top: 60%;}
+   
+    .KenyaCountry {position: absolute; height: 8%; top: 63.5%; left: 76%;}
+   
+    .Boomerang {position: absolute; height: 4%; top: 82%; left: 34%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 17%; top: 73%; left: 54%;}
+
+    .Australia {left: 41%; top: 88%; font-size: 25px;}
+   
+    .AustraliaCountry {position: absolute; height: 9%; top: 76%; left: 43%;}
+   
+    .Yes {position: absolute; color: red; left: 56%; top: 5%; text-decoration: none; font-size: 25px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+   @media only screen and (max-width: 735px) and (min-width: 620px) {
+
+    body {background-color:blue;}
+
+    .center {font-size: 20px; left: 32%; top: 30%; position: absolute;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 11px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; position: absolute; height:180px; left:27.5%; top:32%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:23%; position:absolute; top:57%; left: 3%; z-index:-1;}
+
+    .Japan {font-size: 22px; left: 10%; top: 64%;}
+   
+    .JapanCountry {position: absolute; height: 75px; top: 80%; left: 1%;}
+   
+    .imgTemple{position: absolute; height: 20%; left: 1%; top: 10%; z-index: -1;}
+
+    .Greece {font-size: 22px; left: 16%; top: 27%;}
+   
+    .GreeceCountry {position: absolute; top: 2%; height: 11%; left: 1%;}
+       
+    .Coconut {position: absolute; height: 16%; top: 5%; left: 31%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {font-size: 22px; left: 23%; z-index: 1;}
+
+    .HawaiiCountry {position: absolute; top: -9%; left: 27%; height: 17%;}
+   
+    .Eifle {position: absolute; height: 29%; top: -4%; left: 55%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 8%; left: 75%; top: 5%;}
+   
+    .Crown {position: absolute; height: 6%; left: 77%; top: 33%;}
+
+    .Belgium {font-size: 22px; left: 69%; top: 27%;}
+   
+    .BelgiumCountry {position: absolute; height: 8%; left: 81%; top: 26%;}
+   
+    .Tree {position: absolute; height: 14%; left: 72%; top: 71%;}
+   
+    .Mask {position: absolute; height: 4%; top: 85%; left: 90%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 22px; left: 80%; top: 64%;}
+   
+    .KenyaCountry {position: absolute; height: 8%; top: 64%; left: 70%;}
+   
+    .Boomerang {position: absolute; height: 4%; top: 84%; left: 30%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 14%; top: 77%; left: 58%;}
+
+    .Australia {left: 41%; top: 89%; font-size: 22px;}
+   
+    .AustraliaCountry {position: absolute; height: 9%; top: 76%; left: 42%;}
+   
+    .Yes {position: absolute; color: red; left: 60%; top: 5%; text-decoration: none; font-size: 22px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+   @media only screen and (max-width: 620px) and (min-width: 550px) {
+    body {background-color:blue;}
+
+    .center {font-size: 19px; left: 33%; top: 34%; line-height: 13px; }
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 9px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; height:155px; left:27.5%; top:32%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:19%; top:52%; left: 3%; z-index:-1;}
+
+    .Japan {font-size: 18px; left: 7%; top: 64%;}
+   
+    .JapanCountry {height: 48px; top: 68%; left: 1%;}
+   
+    .imgTemple{height: 15%; left: 10%; top: 9%; z-index: -1;}
+
+    .Greece {font-size: 18px; left: 10%; top: 24%;}
+   
+    .GreeceCountry {top: 22.5%; height: 6%; left: 24%;}
+       
+    .Coconut {height: 11%; top: 6%; left: 38%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {font-size: 18px; top: 4%; z-index: 1;}
+
+    .HawaiiCountry {position: absolute; top: -4.5%; left: 36%; height: 10%;}
+   
+    .Eifle {position: absolute; height: 24%; top: 11%; left: 60%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 5%; left: 63%; top: 17%;}
+   
+    .Crown {position: absolute; height: 4%; left: 68%; top: 1%;}
+
+    .Belgium {font-size: 18px; left: 76%; top: 4%;}
+   
+    .BelgiumCountry {position: absolute; height: 5%; left: 86%; top: 8%;}
+   
+    .Tree {position: absolute; height: 9%; left: 73%; top: 69%;}
+   
+    .Mask {position: absolute; height: 3%; top: 75%; left: 89%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 18px; left: 83%; top: 64%;}
+   
+    .KenyaCountry {position: absolute; height: 5%; top: 62%; left: 74%;}
+   
+    .Boomerang {position: absolute; height: 3%; top: 79%; left: 32%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 9%; top: 76%; left: 60%;}
+
+    .Australia {left: 43%; top: 82%; font-size: 18px;}
+   
+    .AustraliaCountry {position: absolute; height: 5%; top: 74%; left: 45.5%;}
+   
+    .Yes {position: absolute; color: red; left: 60%; top: 24%; text-decoration: none; font-size: 18px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+   
+
+   @media only screen and (max-width: 550px) and (min-width: 400px) {
+
+    .center {font-size: 19px; left: 28%; top: 36%; line-height: 13px;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 9px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; height:170px; left:18%; top:33%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:19%; top:52%; left: 3%; z-index:-1;}
+
+    .Japan {font-size: 17px; left: 7%; top: 64%;}
+   
+    .JapanCountry {height: 48px; top: 68%; left: 1%;}
+   
+    .imgTemple{height: 15%; left: 10%; top: 9%; z-index: -1;}
+
+    .Greece {font-size: 17px; left: 10%; top: 24%;}
+   
+    .GreeceCountry {top: 22.5%; height: 6%; left: 24%;}
+       
+    .Coconut {height: 11%; top: 6%; left: 38%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {font-size: 17px; top: 4%; z-index: 1;}
+
+    .HawaiiCountry {position: absolute; top: -4.5%; left: 36%; height: 10%;}
+   
+    .Eifle {position: absolute; height: 24%; top: 11%; left: 60%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 5%; left: 68%; top: 17%;}
+   
+    .Crown {position: absolute; height: 4%; left: 67%; top: 1%;}
+
+    .Belgium {font-size: 17px; left: 76%; top: 4%;}
+   
+    .BelgiumCountry {position: absolute; height: 5%; left: 85%; top: 7%;}
+   
+    .Tree {position: absolute; height: 9%; left: 73%; top: 67.5%;}
+   
+    .Mask {position: absolute; height: 3%; top: 75%; left: 89%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 17px; left: 83%; top: 64%;}
+   
+    .KenyaCountry {position: absolute; height: 5%; top: 62%; left: 74%;}
+   
+    .Boomerang {position: absolute; height: 3%; top: 79%; left: 32%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 9%; top: 76%; left: 60%;}
+
+    .Australia {left: 41%; top: 82%; font-size: 17px;}
+   
+    .AustraliaCountry {position: absolute; height: 5%; top: 74%; left: 45.5%;}
+   
+    .Yes {position: absolute; color: red; left: 60%; top: 24%; text-decoration: none; font-size: 17px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+
+       @font-face {font-family: 'TimesNewRoman'; src: url(TimesNewRoman.ttf); font-style: normal;}
+       body {font-family: 'TimesNewRoman'; font-style: normal;}
+   }
+
+
+
+   @media only screen and (max-width: 400px) and (min-width: 260px) {
+    .center {font-size: 17px; left: 21%; top: 35%; line-height: 15px;}
+
+    h2, h6 {font-style: italic;}
+
+    h6 {color: white; text-shadow: 5px 5px 5px blue; font-size: 9px; text-align: center;}
+   
+    .imgEPCOT {border: solid 5px black; height:170px; left:16%; top:32%; z-index: -2; opacity: 85%;}
+   
+    .imgDragon {height:19%; top:53%; left: 3%; z-index:-1;}
+
+    .Japan {font-size: 17px; left: 7%; top: 64%;}
+   
+    .JapanCountry {height: 48px; top: 68%; left: 1%;}
+   
+    .imgTemple{height: 15%; left: 10%; top: 9%; z-index: -1;}
+
+    .Greece {font-size: 17px; left: 10%; top: 24%;}
+   
+    .GreeceCountry {top: 22.5%; height: 6%; left: 27%;}
+       
+    .Coconut {height: 11%; top: 6%; left: 38%; z-index: -1; opacity: 90%; z-index: -3;}
+   
+    .Hawaii {font-size: 17px; top: 4%; z-index: 1;}
+
+    .HawaiiCountry {position: absolute; top: -4.5%; left: 39%; height: 10%;}
+   
+    .Eifle {position: absolute; height: 24%; top: 11%; left: 58%; z-index: -1;}
+   
+    .FranceCountry {position: absolute; height: 5%; left: 68%; top: 17%;}
+   
+    .Crown {position: absolute; height: 4%; left: 67%; top: 1%;}
+
+    .Belgium {font-size: 17px; left: 76%; top: 4%;}
+   
+    .BelgiumCountry {position: absolute; height: 5%; left: 86%; top: 8%;}
+   
+    .Tree {position: absolute; height: 9%; left: 73%; top: 68%;}
+   
+    .Mask {position: absolute; height: 3%; top: 75%; left: 92%; transform: rotate(-23deg);}
+
+    .Kenya {font-size: 17px; left: 83%; top: 64%;}
+   
+    .KenyaCountry {position: absolute; height: 5%; top: 62%; left: 74%;}
+   
+    .Boomerang {position: absolute; height: 3%; top: 79%; left: 31%; transform:rotate(-29deg);}
+   
+    .Kangaroo {position: absolute; height: 9%; top: 76%; left: 61%;}
+
+    .Australia {left: 40%; top: 82%; font-size: 17px;}
+   
+    .AustraliaCountry {position: absolute; height: 5%; top: 74%; left: 45.5%;}
+   
+    .Yes {position: absolute; color: red; left: 60%; top: 24%; text-decoration: none; font-size: 17px;
+          color:#EEEEEE; font-weight: bold; text-shadow: 6px 11px 11px #952323;}    
+       .Yes:hover {color:#952323; text-shadow:white;}
+   }
+
+
+
+   @media only screen and (max-width: 260px) and (min-width: 0px) {
+    body {display: none;}
+   }
+   @media only screen and (max-height: 530px) and (min-height: 0px) {
+   body {display: none;}
+   }
